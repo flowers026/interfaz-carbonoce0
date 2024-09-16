@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.barra-superior {
+    background-color: red;
+    height: 10%;
+    width: 100%;
+}
+
+.main-content {
+    display: flex;
+    flex-grow: 1;
+}
+
+.columna-izquierda {
+    background-color: green;
+    width: 15%;
+}
+
+.bloque-central {
+    background-color: blue;
+    flex-grow: 1;
+}
+
+.columna-derecha {
+    background-color: purple;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fila-derecha {
+    background-color: purple;
+    border: 2px solid black; /* Para simular las líneas de separación */
+    flex-grow: 1;
+}
+
+.barra-inferior {
+    background-color: orange;
+    height: 10%;
+    width: 100%;
+}
